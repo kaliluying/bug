@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-tp$(k@y#0jwy4umd_(#y&&826$1b!16%dfx)-2puqohxt%qx8p'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -79,7 +79,7 @@ DATABASES = {
         'HOST': '127.0.0.1',  # 主机名
         'PORT': 3306,  # 端口号
         'USER': 'root',  # 用户权限
-        'PASSWORD': '176294955',  # 数据库密码
+        'PASSWORD': '176294955Gml.',  # 数据库密码
         'NAME': 'bug',  # 创建的数据库名
     }
 }
