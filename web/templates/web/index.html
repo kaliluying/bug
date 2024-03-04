@@ -1,0 +1,22 @@
+{% extends 'web/layout/basic.html' %}
+{% load static %}
+
+{% block title %} 首页 {% endblock %}
+
+{% block css %}
+    <style>
+        img {
+            width: 100%;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+    <div>
+        <img src="{% static 'web/img/下载.png' %}" alt="">
+        <img src="{% static 'web/img/下载2.png' %}" alt="">
+        <img src="{% static 'web/img/下载3.png' %}" alt="">
+        <img src="{% static 'web/img/下载4.png' %}" alt="">
+    </div>
+
+{% endblock %}

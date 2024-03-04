@@ -1,0 +1,654 @@
+﻿{% extends 'web/layout/basic.html' %}
+{% load static %}
+
+{% block title %} Toggle navigation {% endblock %}
+
+{% block css %}
+<!-- responsive meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- For IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- master stylesheet -->
+	<link rel="stylesheet" href="{% static 'index/css/style.css' %}">
+	<!-- Responsive stylesheet -->
+    <link href="{% static 'index/plugins/revolution/css/settings.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'index/plugins/revolution/css/layers.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'index/plugins/revolution/css/navigation.css' %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="{% static 'index/css/responsive.css' %}">
+    <!-- Favicon -->
+{#    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icons.png">#}
+    <link rel="icon" type="image/png" href="{% static 'index/img/favicon/favicon-32x32.png' %}" sizes="32x32">
+    <link rel="icon" type="image/png" href="{% static 'index/img/favicon/favicon-16x16.png' %}" sizes="16x16">
+
+{% endblock %}
+
+{% block content %}
+<div class="boxed_wrapper">
+
+<!--Main Slider-->
+<section class="main-slider">
+    <div class="rev_slider_wrapper fullwidthbanner-container"  id="rev_slider_one_wrapper" data-source="gallery">
+        <div class="rev_slider fullwidthabanner" id="rev_slider_one" data-version="5.4.1">
+            <ul>
+                
+                <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1688" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="img/slides/1.jpg" data-title="Slide Title" data-transition="">
+                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="" data-bgposition="center top" data-bgrepeat="no-repeat" data-no-retina="" src="{% static 'index/img/slides/下载1.png' %}">
+                    
+                    <div class="tp-caption" 
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingtop="[0,0,0,0]"
+                    data-responsive_offset="on"
+                    data-type="text"
+                    data-height="none"
+                    data-width="['900','850','750','600']"
+                    data-whitespace="normal"
+                    data-hoffset="['15','15','15','15']"
+                    data-voffset="['-80','-80','-90','-90']"
+                    data-x="['center','center','center','center']"
+                    data-y="['middle','middle','middle','middle']"
+                    data-textalign="['top','top','top','top']"
+                    data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                        <h1>轻量级Bug追踪管理平台</h1>
+                    </div>
+                    
+                    <div class="tp-caption" 
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingtop="[0,0,0,0]"
+                    data-responsive_offset="on"
+                    data-type="text"
+                    data-height="none"
+                    data-width="['550','550','550','500']"
+                    data-whitespace="normal"
+                    data-hoffset="['15','15','15','15']"
+                    data-voffset="['10','10','10','10']"
+                    data-x="['center','center','center','center']"
+                    data-y="['middle','middle','middle','middle']"
+                    data-textalign="['top','top','top','top']"
+                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                        <div class="text">简洁、高效的Bug追踪，轻量、便捷的项目管理，安全、稳定的数据保障，完美地将Bug管理与团队协作结合在一起。项目管理，本就是-种优雅的艺术</div>
+                    </div>
+                    
+                    <div class="tp-caption tp-resizeme" 
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingtop="[0,0,0,0]"
+                    data-responsive_offset="on"
+                    data-type="text"
+                    data-height="none"
+                    data-width="['900','850','750','600']"
+                    data-whitespace="normal"
+                    data-hoffset="['15','15','15','15']"
+                    data-voffset="['100','100','100','110']"
+                    data-x="['center','center','center','center']"
+                    data-y="['middle','middle','middle','middle']"
+                    data-textalign="['center','center','center','center']"
+                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                        <a href="{% url 'project_list' %}" class="thm-btn bg-clr2">Get Services</a>
+                    </div>
+                </li>
+
+                <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1689" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="img/slides/3.jpg" data-title="Slide Title" data-transition="">
+                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="" data-bgposition="center top" data-bgrepeat="no-repeat" data-no-retina="" src="{% static 'index/img/slides/3.jpg' %}">
+                    
+                    <div class="tp-caption" 
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingtop="[0,0,0,0]"
+                    data-responsive_offset="on"
+                    data-type="text"
+                    data-height="none"
+                    data-width="['900','850','750','600']"
+                    data-whitespace="normal"
+                    data-hoffset="['15','15','15','15']"
+                    data-voffset="['-90','-100','-110','-110']"
+                    data-x="['center','center','center','center']"
+                    data-y="['middle','middle','middle','middle']"
+                    data-textalign="['top','top','top','top']"
+                    data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                        <h1>一个平台满足更多功能</h1>
+                    </div>
+                    
+                    <div class="tp-caption" 
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingtop="[0,0,0,0]"
+                    data-responsive_offset="on"
+                    data-type="text"
+                    data-height="none"
+                    data-width="['550','550','550','500']"
+                    data-whitespace="normal"
+                    data-hoffset="['15','15','15','15']"
+                    data-voffset="['10','10','10','10']"
+                    data-x="['center','center','center','center']"
+                    data-y="['middle','middle','middle','middle']"
+                    data-textalign="['top','top','top','top']"
+                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                        <div class="text">无论是修改Bug，还是新增一个功能， 我们都可以为您提供理想的工作云平台。便捷的团队协作，轻量的项目管理，完备的问题系统， 大容量的文件存储，带来更高效的工作体验</div>
+                    </div>
+                    
+                    <div class="tp-caption tp-resizeme" 
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingtop="[0,0,0,0]"
+                    data-responsive_offset="on"
+                    data-type="text"
+                    data-height="none"
+                    data-width="['900','850','750','600']"
+                    data-whitespace="normal"
+                    data-hoffset="['15','15','15','15']"
+                    data-voffset="['100','100','100','110']"
+                    data-x="['center','center','center','center']"
+                    data-y="['middle','middle','middle','middle']"
+                    data-textalign="['center','center','center','center']"
+                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                        <a href="{% url 'project_list' %}" class="thm-btn bg-clr2">Get Services</a>
+                    </div>
+                </li>
+
+                 <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1690" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="img/slides/2.jpg" data-title="Slide Title" data-transition="">
+                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="" data-bgposition="center top" data-bgrepeat="no-repeat" data-no-retina="" src="{% static 'index/img/slides/2.jpg' %}">
+                    
+                    <div class="tp-caption" 
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingtop="[0,0,0,0]"
+                    data-responsive_offset="on"
+                    data-type="text"
+                    data-height="none"
+                    data-width="['900','850','750','600']"
+                    data-whitespace="normal"
+                    data-hoffset="['15','15','15','15']"
+                    data-voffset="['-90','-100','-110','-110']"
+                    data-x="['center','center','center','center']"
+                    data-y="['middle','middle','middle','middle']"
+                    data-textalign="['top','top','top','top']"
+                    data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                        <h1>细致铸造品质</h1>
+                    </div>
+                    
+                    <div class="tp-caption" 
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingtop="[0,0,0,0]"
+                    data-responsive_offset="on"
+                    data-type="text"
+                    data-height="none"
+                    data-width="['550','550','550','500']"
+                    data-whitespace="normal"
+                    data-hoffset="['15','15','15','15']"
+                    data-voffset="['10','10','10','10']"
+                    data-x="['center','center','center','center']"
+                    data-y="['middle','middle','middle','middle']"
+                    data-textalign="['top','top','top','top']"
+                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                        <div class="text">我们在产品细节上做了更多的处理，不断地进行产品体验优化，在操作流程上处理的更加简便，在技术实施上也更加有保障。我们从细节苛求产品给每一位用户的承诺</div>
+                    </div>
+                    
+                    <div class="tp-caption tp-resizeme" 
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingtop="[0,0,0,0]"
+                    data-responsive_offset="on"
+                    data-type="text"
+                    data-height="none"
+                    data-width="['900','850','750','600']"
+                    data-whitespace="normal"
+                    data-hoffset="['15','15','15','15']"
+                    data-voffset="['100','100','100','110']"
+                    data-x="['center','center','center','center']"
+                    data-y="['middle','middle','middle','middle']"
+                    data-textalign="['center','center','center','center']"
+                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                        <a href="{% url 'project_list' %}" class="thm-btn bg-clr2">Get Services</a>
+                    </div>
+                </li>
+                                    
+            </ul>
+        </div>
+    </div>
+</section>
+<!--End Main Slider-->
+
+<!--Start Service Section-->
+<section class="service-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="service-block text-center">
+                    <div class="icon-area">
+                        <div class="icon-box">
+                            <figure><img src="{% static 'index/img/icon/1.png' %}" alt="icon"></figure>
+                        </div>
+                        <a href="#"><h4>问题系统</h4></a>
+                        <p>灵活、多样化的对问题进行管理。触手可及的创建。多种状态,类型，优先级等属性更加直接的说明问题。随时随地添加评论和追踪问题的进度</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="service-block text-center">
+                    <div class="icon-area">
+                        <div class="icon-box">
+                            <figure><img src="{% static 'index/img/icon/2.png' %}" alt="icon"></figure>
+                        </div>
+                        <a href="#"><h4>项目管理</h4></a>
+                        <p>轻量级的项目管理，只需要一个邮箱就可在平台创建项目，管理项目。统计、动态、成员、问题都将一 览无余，不同颜色也为项目管理增加几分色彩</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="service-block text-center">
+                    <div class="icon-area">
+                        <div class="icon-box">
+                            <figure><img src="{% static 'index/img/icon/3.png' %}" alt="icon' %}"></figure>
+                        </div>
+                        <a href="#"><h4>数据统计</h4></a>
+                        <p>-份好的统计图是大多数项目出彩的重点，也是管理者和使用者对项目进度最直观的把握。常用统计，让您可以一目了然的查看问题状态和完成情况</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="service-block text-center">
+                    <div class="icon-area">
+                        <div class="icon-box">
+                            <figure><img src="{% static 'index/img/icon/4.png' %}" alt="icon"></figure>
+                        </div>
+                        <a href="#"><h4>文件共享</h4></a>
+                        <p>稳定安全的存储保障，高速的上传下载，给你的项目足够的空间进行文件共享，在云端查看文件，让您随时随地查阅文件.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="service-block text-center">
+                    <div class="icon-area">
+                        <div class="icon-box">
+                            <figure><img src="{% static 'index/img/icon/5.png' %}" alt="icon"></figure>
+                        </div>
+                        <a href="#"><h4>插件系统</h4></a>
+                        <p>小小的插件，大大的用途。我们针对不同的浏览器制作了提出问题的插件，直接在网页内进行截图，我们会将截图创建成为问题直接建立在您的账户中.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="service-block text-center">
+                    <div class="icon-area">
+                        <div class="icon-box">
+                            <figure><img src="{% static 'index/img/icon/6.png' %}" alt="icon"></figure>
+                        </div>
+                        <a href="#"><h4>团队协作</h4></a>
+                        <p>云端的协作解决了协同办公、异地办公的大麻烦。高效的交流和项目的实时跟踪，让天涯海角的成员都可以无缝的合作，更加便捷和高效的工作.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Start Project area area-->
+<section class="latest-project-area">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="sec-title text-center style-two">
+                    <h2>Our Awesome Work</h2>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p> 
+                </div>
+            </div>
+            <div class="project-content">
+                <!--Start single project-->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="item">
+                        <img src="{% static 'index/img/project/1.jpg' %}" alt="">
+                        <div class="overlay text-center">
+                            <a href="#"><h4>Marketing</h4></a>
+                            <p>Marketing Policy</p>
+                        </div>                    
+                    </div>
+                </div>
+                <!--End single project-->
+
+                <!--Start single project-->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="item">
+                        <img src="{% static 'index/img/project/2.jpg' %}" alt="">
+                        <div class="overlay text-center">
+                            <a href="#"><h4>Marketing</h4></a>
+                            <p>Marketing Policy</p>
+                        </div>                     
+                    </div>
+                </div>
+                <!--End single project-->
+
+                <!--Start single project-->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="item">
+                        <img src="{% static 'index/img/project/3.jpg' %}" alt="">
+                        <div class="overlay text-center">
+                            <a href="#"><h4>Marketing</h4></a>
+                            <p>Marketing Policy</p>
+                        </div>                   
+                    </div>
+                </div>
+                <!--End single project-->
+
+                <!--Start single project-->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="item">
+                        <img src="{% static 'index/img/project/4.jpg' %}" alt="">
+                        <div class="overlay text-center">
+                            <a href="#"><h4>Marketing</h4></a>
+                            <p>Marketing Policy</p>
+                        </div>                    
+                    </div>
+                </div>
+                <!--End single project-->
+
+                <!--Start single project-->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="item">
+                        <img src="{% static 'index/img/project/5.jpg' %}" alt="">
+                        <div class="overlay text-center">
+                            <a href="#"><h4>Marketing</h4></a>
+                            <p>Marketing Policy</p>
+                        </div>                     
+                    </div>
+                </div>
+                <!--End single project-->
+
+                <!--Start single project-->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="item">
+                        <img src="{% static 'index/img/project/6.jpg' %}" alt="">
+                        <div class="overlay text-center">
+                            <a href="#"><h4>Marketing</h4></a>
+                            <p>Marketing Policy</p>
+                        </div>                    
+                    </div>
+                </div>
+                <!--End single project-->
+
+                <!--Start single project-->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="item">
+                        <img src="{% static 'index/img/project/7.jpg' %}" alt="">
+                        <div class="overlay text-center">
+                            <a href="#"><h4>Marketing</h4></a>
+                            <p>Marketing Policy</p>
+                        </div>                    
+                    </div>
+                </div>
+                <!--End single project-->
+
+                <!--Start single project-->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="item">
+                        <img src="{% static 'index/img/project/6.jpg' %}" alt="">
+                        <div class="overlay text-center">
+                            <a href="#"><h4>Marketing</h4></a>
+                            <p>Marketing Policy</p>
+                        </div>                    
+                    </div>
+                </div>
+                <!--End single project-->
+                <div class="more-btn text-center">
+                    <a href="#" class="thm-btn bg-clr2 text-center">View More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End Project area area-->
+
+<!--Start contact btn area-->  
+<section class="contact-btn-area text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-xs-12">
+                <div class="left-content-area">
+                    <h3>Do You Need Any Help or Have a Quary to Us?</h3>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <div class="right-content-area">
+                    <a href="#" class="thm-btn bg-clr2">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End contact btn area-->
+
+<!--Start Price Table area-->  
+<section class="pricetable">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="sec-title text-center">
+                    <h2>Pick Your Plan</h2>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p> 
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="pricetable-block text-center">
+                    <div class="price-title">
+                        <h2>Personal</h2>
+                        <h3>$33.00 <span class="lighttext">/Per Month</span></h3>
+                    </div>
+                    <div class="price-detail">
+                        <ul>
+                            <li>One E-mail Account</li>
+                            <li>Unlimited Benwidth</li>
+                            <li>5 GB Disk Space</li>
+                            <li>7 Hour Support</li>
+                            <li>30 days Validation</li>
+                        </ul>
+                        <a href="#" class="thm-btn bg-clr1">Pick Plan</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="pricetable-block text-center current">
+                    <div class="price-title">
+                        <h2>Personal</h2>
+                        <h3>$33.00 <span class="lighttext">/Per Month</span></h3>
+                        <div class="poplur">
+                            <p>Popular</p>
+                        </div>
+                    </div>
+                    <div class="price-detail">
+                        <ul>
+                            <li>One E-mail Account</li>
+                            <li>Unlimited Benwidth</li>
+                            <li>5 GB Disk Space</li>
+                            <li>7 Hour Support</li>
+                            <li>30 days Validation</li>
+                        </ul>
+                        <a href="#" class="thm-btn bg-clr1">Pick Plan</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="pricetable-block text-center">
+                    <div class="price-title">
+                        <h2>Personal</h2>
+                        <h3>$33.00 <span class="lighttext">/Per Month</span></h3>
+                    </div>
+                    <div class="price-detail">
+                        <ul>
+                            <li>One E-mail Account</li>
+                            <li>Unlimited Benwidth</li>
+                            <li>5 GB Disk Space</li>
+                            <li>7 Hour Support</li>
+                            <li>30 days Validation</li>
+                        </ul>
+                        <a href="#" class="thm-btn bg-clr1">Pick Plan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End Price Table area-->  
+
+
+<!--Start footer area-->  
+<footer class="footer-area">
+    <div class="container">
+        <div class="row">
+            <!--Start single footer widget-->
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div class="single-footer-widget pd-bottom">
+                    <div class="footer-logo">
+                        <a href="index.html">
+                            <!-- <img src="img/resources/logo-2.png" alt="Footer Logo"> -->
+                            <h3></h3>
+                        </a>
+                    </div>
+                    <div class="our-info">
+                        <p>简洁、高效的Bug追踪，轻量、便捷的项目管理，安全、稳定的数据保障，完美地将Bug管理与团队协作结合在一起。项目管理，本就是-种优雅的艺术</p>
+                        <form name="contact_form" class="default-form contact-form" method="post">
+                        <div class="form-group">
+                            <label>
+                                <input type="email" name="email" placeholder="Enter your email" required="">
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="thm-btn bg-clr1">Subscribe</button>
+                        </div>
+                    </form>
+                    </div> 
+                </div>
+            </div>
+            <!--End single footer widget-->
+
+            <!--Start single footer widget-->
+            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+                <div class="single-footer-widget wedo pd-left pd-bottom">
+                    <div class="title">
+                        <h4>Support Center</h4>
+                    </div>
+                    <ul class="we-do-list">
+                        <li><a href="#">Payment System </a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Our FAQ</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                        <li><a href="#">Development</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--End single footer widget-->
+             <!--Start single footer widget-->
+            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+                <div class="single-footer-widget wedo pd-left pd-bottom">
+                    <div class="title">
+                        <h4>Company</h4>
+                    </div>
+                    <ul class="we-do-list">
+                        <li><a href="http://www.17sucai.com/">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--End single footer widget-->
+            <!--Start single footer widget-->
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="single-footer-widget pd-top pd-left">
+                    <div class="title">
+                        <h4>Contact Us</h4>
+                    </div>
+                    <ul class="contact-info">
+                        <li><i class="flaticon-facebook-placeholder-for-locate-places-on-maps"></i>850/B Avenue Rainbo Park United Street, USA</li>
+                        <li><i class="flaticon-telephone"></i>0144 550066 9900</li>
+                        <li><i class="flaticon-sent-mail"></i>yourmail@gmail.com</li>
+                    </ul>
+                    <ul class="social-footer">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--End single footer widget-->
+        </div>
+    </div>
+</footer>   
+<!--End footer area-->
+
+
+<!--Start footer bottom area-->
+<section class="footer-bottom-area">
+    <div class="container">
+        <div class="copyright-text text-center">
+            <p>&copy; genban.org. All rights reserved</p> 
+        </div> 
+    </div>  
+</section>
+<!--End footer bottom area-->
+
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="flaticon-striped-arrow-up"></span></div>
+</div>
+{% endblock %}
+
+{% block js %}
+<!-- main jQuery -->
+<script src="{% static 'index/js/jquery.min.js' %}"></script>
+<!-- bootstrap -->
+<script src="{% static 'index/js/bootstrap.min.js' %}"></script>
+<!-- count to -->
+<script src="{% static 'index/js/jquery.countTo.js' %}"></script>
+<!-- validate -->
+<script src="{% static 'index/js/validation.js' %}"></script>
+<!-- owl carousel -->
+<script src="{% static 'index/js/owl.carousel.min.js' %}"></script>
+<!-- mixit up -->
+<script src="{% static 'index/js/jquery.mixitup.min.js' %}"></script>
+<!-- fancy box -->
+<script src="{% static 'index/js/jquery.fancybox.pack.js' %}"></script>
+<script src="{% static 'index/js/jquery.appear.js' %}"></script>
+<!-- isotope script-->
+<script src="{% static 'index/js/isotope.js' %}"></script>
+<script src="{% static 'index/js/lightbox.js' %}"></script>
+<script src="{% static 'index/js/html5lightbox.js' %}"></script>
+<!-- Bootstrap select picker js -->
+<script src="{% static 'index/assets/bootstrap-sl-1.12.1/bootstrap-select.js' %}"></script>
+<!-- Bootstrap bootstrap touchspin js -->
+<!-- jQuery ui js -->
+<script src="{% static 'index/assets/jquery-ui-1.11.4/jquery-ui.js' %}"></script>
+
+<!--Revolution Slider-->
+<script src="{% static 'index/plugins/revolution/js/jquery.themepunch.revolution.min.js' %}"></script>
+<script src="{% static 'index/plugins/revolution/js/jquery.themepunch.tools.min.js' %}"></script>
+<script src="{% static 'index/plugins/revolution/js/extensions/revolution.extension.actions.min.js' %}"></script>
+<script src="{% static 'index/plugins/revolution/js/extensions/revolution.extension.carousel.min.js' %}"></script>
+<script src="{% static 'index/plugins/revolution/js/extensions/revolution.extension.kenburn.min.js' %}"></script>
+<script src="{% static 'index/plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js' %}"></script>
+<script src="{% static 'index/plugins/revolution/js/extensions/revolution.extension.migration.min.js' %}"></script>
+<script src="{% static 'index/plugins/revolution/js/extensions/revolution.extension.navigation.min.js' %}"></script>
+<script src="{% static 'index/plugins/revolution/js/extensions/revolution.extension.parallax.min.js' %}"></script>
+<script src="{% static 'index/plugins/revolution/js/extensions/revolution.extension.slideanims.min.js' %}"></script>
+<script src="{% static 'index/plugins/revolution/js/extensions/revolution.extension.video.min.js' %}"></script>
+<script src="{% static 'index/js/main-slider-script.js' %}"></script>
+
+
+
+<!-- thm custom script -->
+<script src="{% static 'index/js/custom.js' %}"></script>
+
+{% endblock %}
